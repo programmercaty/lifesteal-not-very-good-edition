@@ -1,0 +1,20 @@
+name: LifestealNotVeryGoodEdition
+version: ${project.version}
+main: programmercat.lifestealnotverygoodedition.lifesteal
+api-version: 1.18
+authors: [ programmercat ]
+description:
+  bad version of lifesteal :D
+commands:
+  reset:
+    description: reset players hearts
+    usage: /<command>
+    permission: LifestealNotVeryGoodEdition.commands.reset
+  setHearts:
+    description: set players hearts
+    usage: /<command>
+    permission: LifestealNotVeryGoodEdition.commands.reset
+  rerollItem:
+    description: get a reroll Item
+    usage: /<command>
+    permission: LifestealNotVeryGoodEdition.commands.reset
